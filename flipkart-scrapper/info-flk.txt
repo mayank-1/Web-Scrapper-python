@@ -1,0 +1,1 @@
+This is project will scrap the data from the Flipkart Website and export the data into a .CSV file.

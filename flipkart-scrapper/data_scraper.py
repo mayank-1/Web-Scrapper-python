@@ -19,10 +19,6 @@ for article in soup.find_all('div',class_='_1UoZlX'):
     print(f'Price: {price}')
 
     print('Specification:-')
-    # for detail in article.find('ul',class_='vFw0gD').find_all('li',class_='tVe95H'):
-    #     specs = detail.text
-    #     print(specs)
-
     specs=[]
     for detail in article.find('ul',class_='vFw0gD').find_all('li',class_='tVe95H'):
         specs.append(detail.text)
